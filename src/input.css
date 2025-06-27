@@ -1,1 +1,104 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+:root{
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+}
+
+
+
+/* HAMBURGER MENU */
+.hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger-top,.hamburger-middle,.hamburger-bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26.5px;
+    height: 2.5px;
+    background-color: var(--Very-dark-blue);
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle{
+    transform: translateY(7px);
+    transition: 0s;
+}
+
+.hamburger-bottom{
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger-middle{
+    display: none;
+}
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+
+
+
+/* OVERLAY */
+.overlay.hidden{
+    max-width: 0vw;
+    opacity: 0;
+}
+
+.overlay.flex{
+    opacity: 1;
+    min-width: 50svb;
+}
+
+.overlay{
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--Off-white);
+    min-height: 20svh;/* 
+    min-width: 50svw; */
+
+    right: 0;
+    top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2em 1em;
+    transition: all 0.3s ease;
+}
+
+.overlay li{
+    margin-top: 1em;
+}
+
+footer img.logo{
+    filter: invert(100%);
+}
