@@ -94,3 +94,9 @@ body{
     font-size: 1.15em;
     font-weight: 600;
 }
+
+
+footer img.logo{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
