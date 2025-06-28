@@ -68,37 +68,29 @@ body{
 
 
 /* OVERLAY */
-.overlay.hidden{
-    max-width: 0vw;
+.overlay.close{
+    max-width: 0svw;
     opacity: 0;
+    max-height: 0svh;
+    /* display: none; */
+    transition: all 0.5s ease linear;
+    transition: max-height 1s ease linear, opacity 0.5s ease linear;
 }
 
-.overlay.flex{
+.overlay.open{
     opacity: 1;
-    min-width: 50svb;
+    max-width: 50svw;
+    min-height: 10svh;
+    display: block;
+    padding: 1.5em 2em;
 }
 
-.overlay{
-    z-index: 1000;
-    position: fixed;
-    background-color: var(--Off-white);
-    min-height: 20svh;/* 
-    min-width: 50svw; */
-
-    right: 0;
-    top: 60px;
-
+.overlay ul{
     display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 2em 1em;
-    transition: all 0.3s ease;
+    flex-direction: column;
+    gap: 0.5em;
 }
-
-.overlay li{
-    margin-top: 1em;
-}
-
-footer img.logo{
-    filter: invert(100%);
+.overlay a{
+    font-size: 1.15em;
+    font-weight: 600;
 }
