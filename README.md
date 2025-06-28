@@ -1,6 +1,6 @@
 # News Homepage – A Frontend Mentor Challenge
 
-## 🧭 Overview
+## Overview
 
 This project is a remake of a professional web layout challenge from [Frontend Mentor](https://www.frontendmentor.io/). It was developed to sharpen frontend skills by transforming a premium UI design into a functional, responsive website using modern development practices.
 
@@ -8,17 +8,17 @@ This project is a remake of a professional web layout challenge from [Frontend M
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
-- **UI Replication**: Build a faithful replica of the design challenge.
-- **Responsive Design**: Ensure optimal display across all screen sizes.
-- **Semantic HTML**: Use semantic markup for accessibility and SEO.
-- **Tailwind Utility-First Approach**: Implement Tailwind CSS for rapid styling and consistency.
-- **Live Hosting**: Deploy the project for easy access and sharing.
+- ⭐ **UI Replication**: Build a faithful replica of the design challenge.
+- ⭐ **Responsive Design**: Ensure optimal display across all screen sizes.
+- ⭐ **Semantic HTML**: Use semantic markup for accessibility and SEO.
+- ⭐ **Tailwind Utility-First Approach**: Implement Tailwind CSS for rapid styling and consistency.
+- ⭐ **Live Hosting**: Deploy the project for easy access and sharing.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
@@ -27,44 +27,44 @@ This project is a remake of a professional web layout challenge from [Frontend M
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
 
-👉 **Live Demo**: [https://news-homepage-five-ochre.vercel.app](https://news-homepage-five-ochre.vercel.app)
+**Live Demo**: [https://news-homepage-five-ochre.vercel.app](https://news-homepage-five-ochre.vercel.app)
 
 ---
 
 ## 📝 Features
 
-✅ Fully responsive layout  
-✅ Semantic and accessible HTML  
-✅ Tailwind CSS utility-first styling  
-✅ Clean and modular structure  
-✅ Deployed via Vercel
+- ⭐ Fully responsive layout  
+- ⭐ Semantic and accessible HTML  
+- ⭐ Tailwind CSS utility-first styling  
+- ⭐ Clean and modular structure  
+- ⭐ Deployed via Vercel
 
 ---
 
-## 📌 Acknowledgments
+## Acknowledgments
 
-🎨 Design by: [Frontend Mentor – News Homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)  
-💡 UI inspiration and learning challenge by Frontend Mentor
+Design by: [Frontend Mentor – News Homepage](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)  
+UI inspiration and learning challenge by Frontend Mentor
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions and feedback are welcome!
 
-📂 Fork the repository  
-🛠 Create a new branch (`git checkout -b feature/yourFeature`)  
-🔁 Commit your changes (`git commit -m 'Add new feature'`)  
-🚀 Push to the branch (`git push origin feature/yourFeature`)  
-🔃 Open a Pull Request
+### Fork the repository  
+- ⭐ Create a new branch (`git checkout -b feature/yourFeature`)  
+- ⭐ Commit your changes (`git commit -m 'Add new feature'`)  
+- ⭐ Push to the branch (`git push origin feature/yourFeature`)  
+- ⭐ Open a Pull Request
 
 ---
 
-## 📁 Getting Started
+## Getting Started
 
 To run this project locally:
 
